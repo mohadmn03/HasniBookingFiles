@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+//centeringFlex
+@mixin centeringFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  //centeringTransform
+  @mixin centeringTransform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  //wh
+  @mixin wh($width, $height) {
+    width: $width;
+    height: $height;
+  }
+  //same wh
+  @mixin samewh($width) {
+    width: $width;
+    height: $width;
+  }
+  //left right padding
+  @mixin lrpadding($left, $right) {
+    padding-left: $left;
+    padding-right: $right;
+  }
+  //top bottom padding
+  @mixin tbpadding($top, $bottom) {
+    padding-top: $top;
+    padding-bottom: $bottom;
+  }
+  //left right margin
+  @mixin lrmargin($left, $right) {
+    margin-left: $left;
+    margin-right: $right;
+  }
+  //top bottom margin
+  @mixin tbmargin($top, $bottom) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+  }
+  //flex columns
+  @mixin columns() {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  //buttons style
+  @mixin btn {
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: $mainColor;
+  }

@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.searchItem {
+  display: flex;
+  gap: 20px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+.searchItem .siImg {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.searchItem .siDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 2;
+}
+.searchItem .siDesc .siTitle {
+  color: #0071C2;
+  font-size: 20px;
+}
+.searchItem .siDesc .siDistance {
+  font-size: 14px;
+}
+.searchItem .siDesc .siTaxiOp {
+  font-size: 14px;
+  background-color: #008009;
+  color: white;
+  padding: 4px 12px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 5px;
+}
+.searchItem .siDesc .siSubtitle {
+  font-size: 14px;
+  font-weight: bold;
+}
+.searchItem .siDesc .siFeatures {
+  font-size: 14px;
+}
+.searchItem .siDesc .siCancelOp {
+  color: #008009;
+  font-size: 14px;
+  font-weight: bold;
+}
+.searchItem .siDesc .siCancelOpSubtitle {
+  color: #008009;
+  font-size: 14px;
+}
+.searchItem .siDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.searchItem .siDetails .siRating {
+  display: flex;
+  justify-content: space-between;
+}
+.searchItem .siDetails .siRating > span {
+  font-weight: 500;
+}
+.searchItem .siDetails .siRating button {
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+  background-color: #003580;
+  color: white;
+  padding: 3px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.searchItem .siDetails .siDetailTexts {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.searchItem .siDetails .siDetailTexts .siPrice {
+  font-size: 24px;
+}
+.searchItem .siDetails .siDetailTexts .siTaxOp {
+  font-size: 14px;
+  color: gray;
+}
+.searchItem .siDetails .siDetailTexts .siCheckButton {
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+  background-color: #0071C2;
+  color: white;
+  font-weight: bold;
+}/*# sourceMappingURL=SearchItem.css.map */

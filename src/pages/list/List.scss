@@ -1,0 +1,88 @@
+@import "../../STYLING/colors";
+@import "../../STYLING/global_rules";
+//
+.listContainer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    .listWrapper{
+        width: 100%;
+        max-width: 1024px;
+        display: flex;
+        gap: 20px;
+        .listSearch{
+            flex: 1;
+            background-color: $thirdColor;
+            padding: 10px;
+            border-radius: 15px;
+            position: sticky;
+            top: 10px;
+            height: max-content;
+            .lsTitle{
+                font-size: 20px;
+                color: #555;
+                margin-bottom: 10px;
+            }
+            .lsItem{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                margin-bottom: 10px;
+                label{
+                    font-style: 12px;
+                }
+                input{
+                    height: 30px;
+                    border: none;
+                    padding: 5px;
+                }
+                span{
+                    height: 30px;
+                    padding: 5px;
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                }
+                .exc{
+                    background-color: white;
+                }
+                .date{
+                    pointer-events: none;
+                }
+                .lsOptions{
+                    padding: 10px;
+                    .lsOptionItem {
+                        display: flex;
+                        margin-bottom: 10px;
+                        color: #555;
+                        font-size: 14px;                
+                    .lsOptionText {
+                        display: flex;
+                        gap: 10px;
+                        flex: 3;
+                    }
+                    .lsOptionInput {
+                        width: 30px;
+                        flex: 1;
+                        text-align: center;
+                        outline: none;
+                        border: none;
+                    }
+                    }
+                }
+            }
+            .srch{
+                @include btn;
+                background-color: $mainColor;
+                color: white;
+                font-weight: 500;
+                width: 100%;
+                padding: 10px;
+            }
+        }
+        .listResult{
+            flex: 3;
+            border-radius: 6px;
+        }
+    }
+}

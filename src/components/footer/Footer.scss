@@ -1,0 +1,29 @@
+@import "../../STYLING/colors";
+@import "../../STYLING/global_rules";
+//
+.footer{
+    width: 100%;
+    max-width: 1024px;
+    font-size: 12px;
+    .fLists{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        .fList{
+            list-style: none;
+            padding: 0;
+            .fListItem{
+                margin-bottom: 10px;
+                color: $mainColor;
+                cursor: pointer;
+                transition: all 0.2s;
+                &:hover{
+                    transform: translateX(3px);
+                }
+            }
+        }
+    }
+    .fText{
+        margin: 0 0 10px;
+    }
+}

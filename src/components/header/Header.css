@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #003580;
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.header .headerContainer {
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px 0 100px 0;
+}
+.header .headerContainer.listMode {
+  margin: 20px 0 0 0;
+}
+.header .headerContainer .headerList {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.header .headerContainer .headerList .headerListItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.header .headerContainer .headerList .headerListItem.active {
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.header .headerContainer .headerDesc {
+  margin: 20px 0;
+}
+.header .headerContainer .headerBtn {
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+  background-color: #0071C2;
+  color: white;
+  font-weight: 500;
+}
+.header .headerContainer .headerSearch {
+  background-color: white;
+  border: 3px solid #febb02;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+  max-width: 1024px;
+}
+.header .headerContainer .headerSearch .headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header .headerContainer .headerSearch .headerSearchItem .headerIcon {
+  color: lightgray;
+  cursor: pointer;
+}
+.header .headerContainer .headerSearch .headerSearchItem .headerSearchInput {
+  border: none;
+  outline: none;
+}
+.header .headerContainer .headerSearch .headerSearchItem .headerSearchText {
+  color: lightgray;
+  cursor: pointer;
+}
+.header .headerContainer .headerSearch .headerSearchItem .date {
+  position: absolute;
+  top: 50px;
+  z-index: 99999;
+}
+.header .headerContainer .headerSearch .headerSearchItem .date .rdrDateDisplayWrapper, .header .headerContainer .headerSearch .headerSearchItem .date .rdrMonthAndYearWrapper, .header .headerContainer .headerSearch .headerSearchItem .date .rdrMonth {
+  width: 280px;
+}
+.header .headerContainer .headerSearch .headerSearchItem .options {
+  background-color: white;
+  color: gray;
+  padding: 20px;
+  position: absolute;
+  top: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.4);
+  z-index: 99999;
+}
+.header .headerContainer .headerSearch .headerSearchItem .options .optionItem {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin: 10px;
+}
+.header .headerContainer .headerSearch .headerSearchItem .options .optionItem .optionCounter {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: black;
+}
+.header .headerContainer .headerSearch .headerSearchItem .options .optionItem .optionCounter .optionCounterButton {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #0071C2;
+  color: #0071C2;
+  background-color: white;
+  cursor: pointer;
+  transform: all 0.3s;
+}
+.header .headerContainer .headerSearch .headerSearchItem .options .optionItem .optionCounter .optionCounterButton:hover {
+  background-color: #003580;
+  color: white;
+}
+.header .headerContainer .headerSearch .headerSearchItem .options .optionItem .optionCounter .optionCounterButton:disabled {
+  cursor: not-allowed;
+  background-color: #febb02;
+  border-color: #febb02;
+  color: white;
+}/*# sourceMappingURL=Header.css.map */

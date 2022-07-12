@@ -1,0 +1,31 @@
+@import "../../STYLING/colors";
+@import "../../STYLING/global_rules";
+//
+.pList{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    .pListItem{
+        border-radius: 10px;
+        overflow: hidden;
+        cursor: pointer;
+        flex: 1;
+        .pListImg{
+            @include wh(100%, 150px);
+            object-fit: cover;
+        }
+        .pListTitles{
+            h1{
+                color: black;
+                font-size: 18px;
+                @include tbmargin(20px , 5px);
+            }
+            h2{
+                font-size: 14px;
+                font-weight: 300;
+            }
+        }
+    }
+}
