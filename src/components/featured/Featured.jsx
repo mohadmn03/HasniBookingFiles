@@ -5,7 +5,7 @@ const Featured = () => {
   return (
     <div className="featured">
         <div className="featuredItem">
-            <img src="https://scontent.faae2-1.fna.fbcdn.net/v/t1.18169-9/12803298_1240049166023992_9095875866449123143_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=19026a&_nc_eui2=AeH7fd8I0CUE3zVBEEwx6_Bv3wnYj8uo6ArfCdiPy6joCnrCCMXrftan1Q_ikMwo2AolGVjGzG-YTkgirRmr9MtK&_nc_ohc=DWggf6HaxM8AX8pJ81e&_nc_ht=scontent.faae2-1.fna&oh=00_AT8Ol0RWeYpbYlBxhPNDMJXTFvUR7mCSxhKVJUGlRZnOmg&oe=62DF7C74"
+            <img src="https://q-xx.bstatic.com/psb/capla/static/media/long_stays_banner.0c811e7a.png"
              alt=""
              className="featuredImg"
              />
@@ -15,7 +15,7 @@ const Featured = () => {
             </div>
         </div>
         <div className="featuredItem">
-            <img src="https://scontent.faae2-1.fna.fbcdn.net/v/t1.18169-9/12803298_1240049166023992_9095875866449123143_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=19026a&_nc_eui2=AeH7fd8I0CUE3zVBEEwx6_Bv3wnYj8uo6ArfCdiPy6joCnrCCMXrftan1Q_ikMwo2AolGVjGzG-YTkgirRmr9MtK&_nc_ohc=DWggf6HaxM8AX8pJ81e&_nc_ht=scontent.faae2-1.fna&oh=00_AT8Ol0RWeYpbYlBxhPNDMJXTFvUR7mCSxhKVJUGlRZnOmg&oe=62DF7C74"
+            <img src="https://q-xx.bstatic.com/psb/capla/static/media/long_stays_banner.0c811e7a.png"
              alt=""
              className="featuredImg"
              />
@@ -25,7 +25,7 @@ const Featured = () => {
             </div>
         </div>
         <div className="featuredItem">
-            <img src="https://scontent.faae2-1.fna.fbcdn.net/v/t1.18169-9/12803298_1240049166023992_9095875866449123143_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=19026a&_nc_eui2=AeH7fd8I0CUE3zVBEEwx6_Bv3wnYj8uo6ArfCdiPy6joCnrCCMXrftan1Q_ikMwo2AolGVjGzG-YTkgirRmr9MtK&_nc_ohc=DWggf6HaxM8AX8pJ81e&_nc_ht=scontent.faae2-1.fna&oh=00_AT8Ol0RWeYpbYlBxhPNDMJXTFvUR7mCSxhKVJUGlRZnOmg&oe=62DF7C74"
+            <img src="https://q-xx.bstatic.com/psb/capla/static/media/long_stays_banner.0c811e7a.png"
              alt=""
              className="featuredImg"
              />
