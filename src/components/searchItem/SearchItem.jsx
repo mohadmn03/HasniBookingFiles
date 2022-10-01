@@ -4,7 +4,7 @@ import "./SearchItem.css"
 const SearchItem = () => {
   return (
     <div className="searchItem">
-        <img src="https://scontent.faae2-2.fna.fbcdn.net/v/t1.6435-9/94316912_3274882392530407_8307226878071013376_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeFR4NbpZ3LL3HJhE3giykF6BHMSaa-pWtcEcxJpr6la1y8yriRgd7YjD23jfOzdYN456-Tumij5ovElC1AD1uv5&_nc_ohc=gE4DwHNbpZAAX9TaETk&_nc_ht=scontent.faae2-2.fna&oh=00_AT-D8j2A_BRbR1TTra8zm-7ApsemQFJC29uhI6tTbown6A&oe=62E6B87B"
+        <img src="https://q-xx.bstatic.com/psb/capla/static/media/long_stays_banner.0c811e7a.png"
           className='siImg'
           alt="" />
         <div className="siDesc">
