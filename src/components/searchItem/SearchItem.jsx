@@ -2,6 +2,9 @@ import React from 'react'
 import "./SearchItem.css"
 //
 const SearchItem = () => {
+  const handleSearch = () => {
+        navigate("/hotels/0");
+    }
   return (
     <div className="searchItem">
         <img src="https://q-xx.bstatic.com/psb/capla/static/media/long_stays_banner.0c811e7a.png"
@@ -30,7 +33,7 @@ const SearchItem = () => {
         <div className="siDetailTexts">
           <span className="siPrice">$112</span>
           <span className="siTaxOp">Includes taxes and fees</span>
-          <button className="siCheckButton">See availability</button>
+          <button className="siCheckButton" onClick={()=>{handleSearch()}}>See availability</button>
         </div>
       </div>
     </div>
